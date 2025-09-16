@@ -26,7 +26,8 @@ def main():
     print("📥 Extracting data from sources...")
     
     # TODO: Call the extraction functions
-    # airports = extract_airports()
+    airports = extract_airports()
+    print(airports)
     # flights = extract_flights()
     
     # Uncomment the lines above once you've implemented the functions

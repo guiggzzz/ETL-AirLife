@@ -26,12 +26,12 @@ def extract_airports():
         # Hint: Use pd.read_csv()
         
         # For now, return an empty DataFrame
-        df = pd.DataFrame()
-        
+        df = pd.read_csv("test.csv")
+        file_path = os.path.join(os.path.dirname(__file__),"..", "data", "airports.csv")
+        df = pd.read_csv(file_path)
         # TODO: Print how many airports were loaded
-        # Example: print(f"Loaded {len(df)} airports")
+        print(f"Loaded {len(df)} airports")
         
-        print("⚠️  Airport extraction not yet implemented")
         return df
         
     except Exception as e:
