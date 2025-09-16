@@ -17,6 +17,7 @@ from src.load_data import load_to_database, verify_data
 def main():
     """Run the complete ETL pipeline"""
     print("Coucou la tcheam")
+    print("William le boss")
     print("🛫 Starting AirLife ETL Pipeline...")
     print("=" * 50)
     
