@@ -24,9 +24,9 @@ def extract_airports():
         # TODO: Read the airports.csv file using pandas
         # The file is located at: data/airports.csv
         # Hint: Use pd.read_csv()
-        
+        #qpsifhgoeirhgaizohj
         # For now, return an empty DataFrame
-        df = pd.read_csv("test.csv")
+        df = pd.read_c  sv("test.csv")
         file_path = os.path.join(os.path.dirname(__file__),"..", "data", "airports.csv")
         df = pd.read_csv(file_path)
         # TODO: Print how many airports were loaded
